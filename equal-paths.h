@@ -14,6 +14,8 @@ struct Node {
     {}
 };
 
+// Helper function to calculate height of subtrees
+int heightHelper(Node* root);
 /**
  * @brief Returns true if all paths from leaves to root are the same length (height),
  *        and false otherwise
@@ -25,5 +27,7 @@ struct Node {
  * @param root Pointer to the root of the tree to check for equal paths
  */
 bool equalPaths(Node * root);
+
+
 
 #endif
