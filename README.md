@@ -31,4 +31,19 @@
 
 (5) Enter `valgrind --tool=memcheck --leak-check=yes ./bst-test` to check for memory loss/leaks
 
-`Note: run more intensive tests by navigating to hw4_tests/bst_tests, run make bsts_tests, and execute with ./bst_tests`
+`Note: run more intensive tests by navigating to hw4_tests/bst_tests, run make bst_tests, and execute with ./bst_tests`
+
+### Final Submission Notes
+
+##### avl_tests
+(1) Ensure you are in the `hw4` directory
+
+(2) Run `make bst-test` to compile and link all files for the implementation of the AVL BST
+
+(3) Enter `./bst-test` to create the executable `bst-test`
+
+(4) Run the test by entering `./bst-test` in your terminal
+
+(5) Enter `valgrind --tool=memcheck --leak-check=yes ./bst-test` to check for memory loss/leaks
+
+`Note: run more intensive tests by navigating to hw4_tests/avl_tests, run make avl_tests, and execute with ./avl_tests`
